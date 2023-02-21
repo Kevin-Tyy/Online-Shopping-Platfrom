@@ -155,13 +155,14 @@ body{
 .body .side-pre {
     text-align: center;
     margin:  50px ;
-    
 }
 .body .side-pre h1{
     margin: 30px;
     color: aqua;
 }
-
+.body .side-pre span{
+    color: red;
+}
 .body .side-pre button{
     color: white;
     background-color: rgba(0, 237, 245, 0);
@@ -179,14 +180,11 @@ body{
 .body .images{
     /* transform: rotate(-5deg); */
     justify-content: center;
-    display: flex;
-    
+    display: flex;   
 }
-
 .info{
     background-color: rgb(245, 245, 245);
 }
-
 .info-items-header {
     padding: 20px;
     text-align: center;
@@ -204,12 +202,9 @@ body{
     padding: 10px 40px 40px 40px;
     text-align: center;
     overflow-x: scroll;
-
 }
-
 .products div{
     margin: 20px;
-    
 }
 .product-items{
     background-color: white;
@@ -224,7 +219,6 @@ body{
     width: 200px;
     box-shadow: 0 0 20px rgb(192, 192, 192);
     transition: 0.3s;
-
 }
 .product-items img:hover{
     width: 200px;
@@ -247,7 +241,6 @@ body{
 .product-items span{
     color: red;
     font-size: 20px;
-    
 }
 .product-items button{
     background-color: black;
@@ -267,11 +260,15 @@ body{
 
 }
 .product-items p{
-    color: grey;
+    color: rgb(46, 46, 46);
+    padding: 20px;
+    font-weight: 800;
 }
 .header-text{
     color: purple;
+    font-size: 1.4em;
 }
+
 .info-about{
     text-align: center;
     padding: 100px 300px;
